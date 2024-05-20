@@ -25,10 +25,10 @@ Flag no-template-haskell
 
 Library
   Build-Depends:
-        base                 >= 4.8 && < 4.17
+        base                 >= 4.8 && < 5
       , template-haskell
       , ghc-prim
-      , vector               >= 0.11 && < 0.13
+      , vector               >= 0.11 && < 0.14
       , bytestring           >= 0.10 && < 0.12
       , QuickCheck           >= 2.8  && < 2.15
 
